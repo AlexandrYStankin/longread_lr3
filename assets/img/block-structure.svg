@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 270" role="img" aria-labelledby="t d">
+  <title id="t">Цепочка из трех блоков</title>
+  <desc id="d">Каждый блок хранит данные, хеш предыдущего блока и собственный хеш. Хеш блока записывается в следующий блок.</desc>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4f46e5"/></marker>
+  </defs>
+  <rect width="900" height="270" rx="16" fill="#f8fafc"/>
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#0f172a">
+    <rect x="25" y="25" width="230" height="220" rx="10" fill="#fff" stroke="#4f46e5" stroke-width="2"/>
+    <rect x="25" y="25" width="230" height="36" rx="10" fill="#e0e7ff"/>
+    <text x="140" y="49" text-anchor="middle" font-weight="bold">Блок 1, генезисный</text>
+    <text x="40" y="86" fill="#64748b" font-size="12">Данные</text><text x="40" y="106">Алиса → Бобу: 10 BTC</text>
+    <line x1="25" y1="122" x2="255" y2="122" stroke="#cbd5e1"/>
+    <text x="40" y="142" fill="#64748b" font-size="12">Хеш предыдущего блока</text><text x="40" y="162" font-family="monospace">0000000000…</text>
+    <line x1="25" y1="178" x2="255" y2="178" stroke="#cbd5e1"/>
+    <text x="40" y="198" fill="#64748b" font-size="12">Хеш блока</text><text x="40" y="220" font-family="monospace" fill="#4f46e5" font-weight="bold">1A2B3C4D…</text>
+    <rect x="335" y="25" width="230" height="220" rx="10" fill="#fff" stroke="#4f46e5" stroke-width="2"/>
+    <rect x="335" y="25" width="230" height="36" rx="10" fill="#e0e7ff"/>
+    <text x="450" y="49" text-anchor="middle" font-weight="bold">Блок 2</text>
+    <text x="350" y="86" fill="#64748b" font-size="12">Данные</text><text x="350" y="106">Боб → Чарли: 5 BTC</text>
+    <line x1="335" y1="122" x2="565" y2="122" stroke="#cbd5e1"/>
+    <text x="350" y="142" fill="#64748b" font-size="12">Хеш предыдущего блока</text><text x="350" y="162" font-family="monospace">1A2B3C4D…</text>
+    <line x1="335" y1="178" x2="565" y2="178" stroke="#cbd5e1"/>
+    <text x="350" y="198" fill="#64748b" font-size="12">Хеш блока</text><text x="350" y="220" font-family="monospace" fill="#4f46e5" font-weight="bold">6C7D8E9F…</text>
+    <rect x="645" y="25" width="230" height="220" rx="10" fill="#fff" stroke="#4f46e5" stroke-width="2"/>
+    <rect x="645" y="25" width="230" height="36" rx="10" fill="#e0e7ff"/>
+    <text x="760" y="49" text-anchor="middle" font-weight="bold">Блок 3</text>
+    <text x="660" y="86" fill="#64748b" font-size="12">Данные</text><text x="660" y="106">Чарли → Дэвиду: 2 BTC</text>
+    <line x1="645" y1="122" x2="875" y2="122" stroke="#cbd5e1"/>
+    <text x="660" y="142" fill="#64748b" font-size="12">Хеш предыдущего блока</text><text x="660" y="162" font-family="monospace">6C7D8E9F…</text>
+    <line x1="645" y1="178" x2="875" y2="178" stroke="#cbd5e1"/>
+    <text x="660" y="198" fill="#64748b" font-size="12">Хеш блока</text><text x="660" y="220" font-family="monospace" fill="#4f46e5" font-weight="bold">A0B1C2D3…</text>
+  </g>
+  <path d="M255 215 H295 V152 H333" fill="none" stroke="#4f46e5" stroke-width="3" marker-end="url(#ar)"/>
+  <path d="M565 215 H605 V152 H643" fill="none" stroke="#4f46e5" stroke-width="3" marker-end="url(#ar)"/>
+</svg>

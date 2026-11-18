@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-labelledby="t d">
+  <title id="t">Идея доказательства с нулевым разглашением</title>
+  <desc id="d">Доказывающий знает секретные данные, проверяющий получает только подтверждение факта.</desc>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#7c3aed"/></marker></defs>
+  <rect width="900" height="300" rx="16" fill="#f8fafc"/>
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#0f172a" font-size="16">
+    <rect x="40" y="40" width="250" height="220" rx="12" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+    <text x="165" y="72" text-anchor="middle" font-weight="bold" font-size="18">Доказывающий</text>
+    <text x="165" y="116" text-anchor="middle" fill="#64748b" font-size="14">Знает секрет:</text>
+    <text x="165" y="140" text-anchor="middle">дата рождения 12.03.2001</text>
+    <text x="165" y="190" text-anchor="middle" fill="#64748b" font-size="14">Строит доказательство</text>
+    <text x="165" y="212" text-anchor="middle" fill="#64748b" font-size="14">утверждения «мне 18 или больше»</text>
+    <rect x="610" y="40" width="250" height="220" rx="12" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+    <text x="735" y="72" text-anchor="middle" font-weight="bold" font-size="18">Проверяющий</text>
+    <text x="735" y="116" text-anchor="middle" fill="#64748b" font-size="14">Получает только:</text>
+    <text x="735" y="142" text-anchor="middle" fill="#7c3aed" font-weight="bold">«Условие выполнено»</text>
+    <text x="735" y="190" text-anchor="middle" fill="#64748b" font-size="14">Дату рождения</text>
+    <text x="735" y="212" text-anchor="middle" fill="#64748b" font-size="14">узнать невозможно</text>
+  </g>
+  <path d="M292 150 H606" stroke="#7c3aed" stroke-width="4" fill="none" marker-end="url(#a)" stroke-dasharray="2 0"/>
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#0f172a" text-anchor="middle">
+    <text x="450" y="134">Короткое доказательство</text>
+    <text x="450" y="176" font-size="14" fill="#64748b">проверяется быстро и без секрета</text>
+  </g>
+</svg>
